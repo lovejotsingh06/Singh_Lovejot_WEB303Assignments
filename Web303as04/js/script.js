@@ -25,7 +25,7 @@ $(function () {
         var currentLon = position.coords.longitude;
 
         // Display the current location in the div#locationhere
-        $("#locationhere").text(`Your current location: Latitude ${currentLat}, Longitude ${currentLon}`);
+        $("#location").text(`Your current location: Latitude ${currentLat}, Longitude ${currentLon}`);
 
         if (storedLocation) {
             // Calculate the distance between the current and stored locations
